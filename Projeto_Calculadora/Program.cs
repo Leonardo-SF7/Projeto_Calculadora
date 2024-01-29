@@ -10,6 +10,8 @@ namespace Projeto_Calculadora
     {
         static void Main(string[] args)
         {
+            //Escolha da operação que o usuário deseja fazer
+            
             Console.WriteLine("Qual operação deseja realizar:");
             Console.WriteLine("1- Adição");
             Console.WriteLine("2- Subitração");
@@ -27,6 +29,8 @@ namespace Projeto_Calculadora
 
             int resultado = 0;
 
+            //Operações e Métodos para realizar o cálculo e logo após o resultado
+            
             switch (operacao)
             {
                 case 1:
